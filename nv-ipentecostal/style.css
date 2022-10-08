@@ -1,0 +1,336 @@
+/*
+Theme Name: NV- Iglesia Pentecostal de Bolivia
+Theme URI: http://www.nouveauvisage.fr
+Description: Tema creado para la inglesia pentecostal de Bolivia
+Version: 0.1
+Author: Emmanuel Iung
+ 
+Creation Theme by emmanuel iung || http://www.nouveauvisage.fr
+ 
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+
+/*Estilos Principales */
+body { background: #1c0716; }
+#line-top{
+	background-image:url(images/line-top.png);
+	
+	height:8px;
+	}
+#wrap { 
+	width: 980px;
+	margin:auto;
+}
+/************************* HEADER *************************/
+#header h1 {
+		background:url(images/logo.png) no-repeat;
+		width:367px;
+		height:112px;
+		text-indent:-9999px;
+		float:left;
+		margin-bottom:20px;
+		margin-top:10px;
+}
+#header h1 a {
+	width:367px;
+	height:112px;
+	display:block;
+}
+#header ul {
+	overflow:hidden;
+	padding-left:345px;
+}
+#header ul li {
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:20px;
+}
+#header ul li a {
+	position:relative;
+	top: -7px;
+	left: 3px;
+}
+#header ul li a:hover {
+	text-decoration:none;
+	color:white;
+	}
+#header ul li#facebook {
+	background:url(images/facebook.png) no-repeat;
+	width:45px;
+	height:45px;
+	}
+#header ul li#feed {
+	background:url(images/feed.png) no-repeat;
+	width:45px;
+	height:45px;
+	}
+#header ul li#contacto {
+	background:url(images/contacto.png) no-repeat;
+	width:45px;
+	height:45px;
+	}
+#header ul li#youtube {
+	background:url(images/youtube.png) no-repeat;
+	width:45px;
+	height:45px;
+	}
+	
+/*********************************	PARA EL MENU **************************************************/
+#menu {
+	clear:both;
+	overflow:hidden;
+    background: url("images/left-menu.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 46px;
+    margin-top: 8px;
+    padding-left: 12px;
+	width:973px;
+}
+#menu-right {
+    background: url("images/right-menu.png") no-repeat scroll right top transparent;
+    height: 46px;
+    padding-right: 12px;
+}
+#menu-content {
+    background: url("images/content-menu.png") repeat-x scroll 0 0 transparent;
+    height: 46px;
+}
+/************************************************************************************************/
+ul#menu-top li {
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-top: 15px;
+}
+ul#menu-top a {
+    color: #ffffff;
+    font-size: 12px;
+}
+ul#menu-top a:hover {
+    color: #000000;
+}
+ul#menu-top > li.current_page_item > a {
+    color: #9E9D9D !important;
+	font-family: Verdana, Geneva, sans-serif;
+	
+
+
+}
+ul#menu-top ul {
+    background: url("images/dropdown.png") no-repeat scroll left bottom transparent;
+    border-top: 2px solid #CDCDCD;
+    display: none;
+    padding: 3px 0 14px;
+    top: 42px !important;
+    width: 198px;
+    z-index: 9999;
+}
+ul#menu-top ul li {
+    margin: 9px 0;
+    padding: 0 10px 0 18px;
+}
+ul#menu-top ul li a {
+    background: url("images/menu-bullet.png") no-repeat scroll 0 7px transparent;
+    padding-left: 9px;
+    width: 160px;
+}
+ul#menu-top ul ul {
+    border-top: medium none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+}
+ul#menu-top li:hover ul ul, ul#menu-top li.sfHover ul ul {
+    left: 193px !important;
+    top: -10px !important;
+}
+
+.nav ul {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -999em;
+    z-index: 10;
+}
+.nav li {
+    float: left;
+    position: relative;
+}
+.nav a {
+    display: block;
+    float: left;
+	text-decoration:none;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.nav li:hover ul, ul.nav li.sfHover ul {
+    left: 0;
+    top: 50px;
+}
+.nav li:hover li ul, .nav li.sfHover li ul {
+    top: -999em;
+}
+.nav li li:hover ul, ul.nav li li.sfHover ul {
+    left: 192px;
+    top: 0;
+}
+.nav li:hover ul, .nav li li:hover ul {
+    top: -999em;
+}
+.nav li li {
+    display: block;
+    float: left;
+    height: auto !important;
+    padding: 0;
+}
+.nav li ul {
+    width: 191px;
+    z-index: 1000;
+}
+.nav li li a:link, .nav li li a:visited {
+    display: block;
+    float: left;
+    height: auto;
+}
+.nav li:hover {
+    visibility: inherit;
+}
+/****************************** SLIDER **********************************/	
+#slider{
+	clear:both;
+	overflow:hidden;
+	background-color:#FFFFFF;
+	
+	height:515px;
+	
+	}
+	
+/****************************** FIN SLIDER **********************************/	
+	
+#main {
+	clear:both;
+	overflow:hidden;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size:  13px;
+}
+
+#main h1 {
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	
+	}
+#main #primary{
+	float:left;
+	width: 665px;
+	background:#FFFFFF;
+}
+#main #primary .post-item {
+	
+	margin-bottom:28px;
+	border: 1px solid white;
+	overflow: hidden;
+	padding-right: 40px;
+	}
+    
+.post-meta {
+    display: block;
+    font-family: 'Verdana,Geneva,sans-serif';
+    font-size: 12px;
+    height: 13px;
+    padding-bottom: 7px;
+}
+.post-meta a, .tags a {
+    color: #B5B5B5;
+}
+.link-more {
+    font-style: italic;
+}
+.post-meta p{
+background:#FFFFFF;
+}
+.comments {
+    background: url("images/icon-comment.png") no-repeat scroll left center transparent;
+    margin-right: 10px;
+    padding-left: 26px;
+    padding-right: 10px;
+}
+.categories {
+    background: url("images/icon-category.png") no-repeat scroll left center transparent;
+    padding-left: 22px;
+}    
+.post-item img{
+	float:left;
+	padding: 30px 20px 30px 30px;
+	}
+.post-item h2 {
+	padding-top:22px;
+    color: #000000;
+    font-size: 22px;
+    padding-bottom:9px;
+	}
+
+.post-item p.meta {
+	background:#63F;
+	color:#FFFFFF;
+	font-size:12px;
+	font-style:normal;
+	margin-left:250px;
+	}
+#main #sidebar {
+	float:right;
+	width: 315px;
+	background:#CCCCCC;
+	}
+
+
+/* Footer */
+#footer {
+	clear:both;
+	overflow:hidden;
+	background-color:#362933;
+	height:200px;
+	padding: 30px 15px 15px;
+}
+
+.widget-footer1 {
+	margin-left:0px;
+	width: 245px;
+	height:auto;
+	}
+.widget-footer2 {
+	margin-left:245px;
+	width: 245px;
+	margin-top: -60px;
+	height:auto;
+	}
+.widget-footer3 {
+	margin-left:490px;
+	width: 245px;
+	margin-top: -65px;
+	height:auto;
+	}
+.widget-footer4 {
+	margin-left:770px;
+	width: 245px;
+	margin-top:-145px;
+	height:auto;
+	}	
+	
+#copyright {
+	background:#FF6600;
+	}

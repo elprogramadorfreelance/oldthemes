@@ -1,0 +1,206 @@
+/*
+Theme Name: Creation Theme
+Theme URI: http://www.nouveauvisage.fr/
+Description: The first theme created by Felipe Rodriguez.
+Version: 0.1
+Author: Felipe Rodriguez
+ 
+Creation Theme by Emmanuel Iung || http://www.nouveauvisage.fr
+ 
+*/
+
+/* choisissez le type de blog ici */
+@import url('layouts-blog/1col-droite.css');
+
+/*corps de la page web */
+
+body {
+font-family: "Lucida Grande", Arial, Helvetica, Sans-serif;
+font-size: 0.8em;
+text-align: left;
+background: #fff;
+color: #069;
+margin: 0;
+}
+
+#page {
+margin: 0 auto 0 auto;
+}
+
+/* gestion de l'entête */
+
+#header {
+font-family: "Lucida Grande", Arial, Helvetica, Georgia, Sans-serif;
+float: left;
+background-color:#ccc;
+padding: 0 10px 20px 10px;
+color:#069;
+}
+
+#header h1 {
+padding: 0 20px 0 0;
+font-size: 2em;
+text-align: right;
+}
+
+#header h1 a{
+color: #666;
+background-color: #ccc;
+}
+
+#header p {
+padding: 0 20px 0 0;
+font-size: 1em;
+text-align: right;
+}
+
+
+/* gestion du contenu */
+
+#content {
+margin-bottom: 20px;
+}
+
+#content h2 {
+font-size: 1.3em;
+}
+
+.post_content {
+font-size: 1em;
+color: #555;
+background-color: white;
+}
+
+.postmetadata {
+font-size: 0.8em;
+color: #999;
+background-color: white;
+}
+
+
+/* gestion de la sidebar */
+
+.sidebar {
+margin: 20px 0 20px 25px;
+}
+
+.sidebar ul{
+list-style-type: none;
+margin: 0;
+padding: 0 10px;
+}
+
+.sidebar h2 {
+font-size: 1.2em;
+}
+
+
+/* gestion du footer */
+
+#footer {
+font-size: 1em;
+color: #666;
+background-color:#ccc;
+padding: 10px 10px 0 0;
+clear: both;
+}
+
+#footer a {
+color: #006699;
+background-color:#ccc;
+}
+
+#footer p{
+text-align: right;
+font-size: 1em;
+padding: 0 0px 20px 0;
+}
+
+
+/* gestion des commentaires */
+
+.comments-template{
+margin: 10px 0 0 0;
+}
+
+.comments-template ol{
+margin: 10px;
+padding: 0 0 0 15px;
+list-style: none;
+}
+
+.comments-template ol p{
+font-family: "Arial", Helvetica, Sans-serif;
+font-size: 0.9em;
+}
+
+.comments-template ol li{
+margin: 10px 0 0 0;
+line-height: 15px;
+padding: 0 0 10px;
+}
+
+.comments-template h2, .comments-template h3{
+font-size: 1.2em;
+}
+
+.commentmetadata{
+font-size: 0.9em;
+}
+
+.comments-template p.nocomments{
+padding: 0;
+}
+
+.comments-template textarea{
+font-family: Arial, Helvetica, Sans-serif;
+font-size: 0.9em;
+}
+
+.cadre_commentaires {
+border-bottom: 1px solid #ccc;
+border-top: 1px solid #ccc;
+
+}
+
+
+/* gestion des liens */
+
+a {
+color: #555;
+text-decoration: none;
+background-color: white;
+}
+
+a:hover {
+color: #777;
+text-decoration: underline;
+background-color: white;
+}
+
+#content h2 a{
+font-size: 1.2em;
+font-family: "Lucida Grande", Verdana, Arial, Sans-Serif;
+color: #069;
+background-color: white;
+}
+
+#content h2 a:hover{
+color: #555;
+background-color: white;
+}
+
+.post_content a {
+color: #069;
+background-color: white;
+}
+
+.post_content a:hover {
+color: #fff;
+background: #069;
+}
+
+.sidebar a:hover {
+text-decoration: none;
+border-bottom: 1px dotted;
+}
